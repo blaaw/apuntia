@@ -131,4 +131,11 @@ body {
 
 .links a:hover {
     color: #8789c0;  /* Muted purple on hover */
+} 
+
+.error-visible {
+    display: inline;
+}
+.error-hidden {
+    display: none;
 }

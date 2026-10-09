@@ -13,13 +13,13 @@
 El proyecto tiene las siguientes partes:
 - **Landing pages**: una por rol (admin, estudiante, profesor).
 - **index.html**: Página principal, corresponde al login.
-- **Configuración Docker y nginx**: `docker-compose.yml` y `nginx.conf`. Se usa la imagen `nginx` oficial con volúmenes mapeados para desarrollo.
+- **Configuración Docker**: un `docker-compose.yml` con el cual se usa la imagen `nginx` oficial con volúmenes mapeados para desarrollo.
 
 ### Estructura de carpetas
 ```
 apuntia/
 ├── .git/                      # Repositorio git
-├── docker-compose.yml         # Servicio apuntia con imagen nginx y volúmenes mapeados
+├── docker-compose.yml         # Servicio apuntia con imagen nginx 
 ├── index.html               # Página principal (login)
 ├── pages/
 │   └── landing/
