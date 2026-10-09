@@ -35,3 +35,17 @@ apuntia/
 └── styles/
     └── login.css            # Estilos base (reset CSS)
 ```
+
+### Colaboración con IA
+Este proyecto está siendo desarrollado de forma individual, con opencode actuando como copilota principalmente para:
+- **Documentación**: Generación y mantenimiento de archivos README, agents.md y otros documentos técnicos.
+- **Automatización de tareas repetitivas**: Operaciones de git (commits, status, diffs), creación de archivos de configuración, y tareas de scaffolding básicas.
+- **Asistente de desarrollo**: Ayuda con estructuras de código, estilos CSS iniciales, y patrones de implementación.
+
+**Decisiones principales, estructura y lógica de negocio** las toma el usuario dueño del proyecto, incluyendo:
+- La idea general y el concepto del negocio
+- La estructura de roles (estudiante/profesor/admin)
+- La lógica de funcionamiento y características prioritarias
+- El código funcional implementado
+
+El rol del copilota es acelerar la documentación y tareas repetitivas, mientras que la visión, toma de decisiones y código principal corresponden al desarrollador humano.
