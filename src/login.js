@@ -7,7 +7,11 @@ onload = async () => {
 
     document.getElementById("login-button")
     .addEventListener("click", login_usuario)
-    console.log(lista_usuarios)
+
+    document.getElementById("user-code")
+    .addEventListener("focus", () =>{
+        document.getElementById("error-message").className = "error-hidden"
+    })
 }
 
 function login_usuario() {
