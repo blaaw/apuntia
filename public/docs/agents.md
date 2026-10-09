@@ -12,11 +12,13 @@ Este archivo contiene instrucciones y directrices para el agente de IA que traba
 - Formato: Markdown con secciones claras.
 
 ### Estructura del proyecto
-- El proyecto tiene una arquitectura de "scaffolding" inicial muy básica.
-- Las landing pages por rol (admin, estudiante, profesor) están en `pages/landing/`.
-- La página principal es `index.html` con un formulario de login básico.
-- Los estilos viven en `styles/` y el JavaScript en `src/`.
-- La configuración Docker está en la raíz (`docker-compose.yml`, `Dockerfile`, `nginx.conf`).
+- El proyecto tiene una arquitectura ligera.
+- **Landing pages**: una por rol (admin, estudiante, profesor), están en `pages/landing/`.
+- **index.html**: Página principal, corresponde al login.
+- **src/**: JavaScript regular (sin `import`/`export`). `login.js` usa `fetch` para cargar `public/usuarios.json`.
+- **styles/**: Estilos CSS minimalistas.
+- **public/docs/**: Documentación para agentes.
+- **Docker**: Contenedor `nginx` oficial con volúmenes mapeados (`docker-compose.yml`). No se usa `Dockerfile` Build local; la configuración de nginx vive en `nginx.conf` montado en el contenedor.
 
 ### Flujo de trabajo esperado
 1. **Explorar**: Revisar la estructura actual y el readme.md.

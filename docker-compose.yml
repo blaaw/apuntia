@@ -1,10 +1,10 @@
+
 services:
-  nginx:
-    build: .
-    container_name: nginx-dev
+  apuntia:
+    image: nginx
+    container_name: apuntia
     ports:
       - "4914:80"
     volumes:
-      - ./:/usr/share/nginx/html:ro
-      #Por qué :ro? Porque Nginx solo necesita leer tus archivos. Tú podrás modificarlos desde tu editor normalmente. Así evitas que el servidor escriba o modifique los archivos de tu proyecto.
+      - .:/usr/share/nginx/html
     restart: unless-stopped
