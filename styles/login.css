@@ -1,5 +1,87 @@
+/* Login page styles - Apuntia */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111d4a;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.login-container {
+    background: #8380b6;
+    padding: 2.5rem;
+    border-radius: 0;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #8789c0;
+    font-size: 1.8rem;
+    letter-spacing: -0.5px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #45f0df;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: #c2cae8;
+    border: none;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #111d4a;
+    transition: background 0.2s;
+}
+
+.form-group input:focus {
+    outline: none;
+    background: #8789c0;
+    color: #fff;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 0.9rem;
+    background: #45f0df;
+    border: none;
+    border-radius: 0;
+    color: #111d4a;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 1rem;
+}
+
+.btn-login:hover {
+    background: #8380b6;
+    transform: translateY(-2px);
+}
+
+.btn-login:active {
+    transform: translateY(0);
 }
