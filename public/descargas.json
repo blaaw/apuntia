@@ -3,120 +3,160 @@
     "id_descarga": 1,
     "id_apunte": 1,
     "id_estudiante": 5,
-    "fecha": "2025-09-10"
+    "fecha": "2025-09-10",
+    "idDescarga": 1,
+    "idEstudiante": 201
   },
   {
     "id_descarga": 2,
     "id_apunte": 2,
     "id_estudiante": 8,
-    "fecha": "2025-09-11"
+    "fecha": "2025-09-11",
+    "idDescarga": 2,
+    "idEstudiante": 202
   },
   {
     "id_descarga": 3,
     "id_apunte": 3,
     "id_estudiante": 12,
-    "fecha": "2025-09-12"
+    "fecha": "2025-09-12",
+    "idDescarga": 3,
+    "idEstudiante": 203
   },
   {
     "id_descarga": 4,
     "id_apunte": 4,
     "id_estudiante": 3,
-    "fecha": "2025-09-15"
+    "fecha": "2025-09-15",
+    "idDescarga": 4,
+    "idEstudiante": 204
   },
   {
     "id_descarga": 5,
     "id_apunte": 5,
     "id_estudiante": 17,
-    "fecha": "2025-09-16"
+    "fecha": "2025-09-16",
+    "idDescarga": 5,
+    "idEstudiante": 205
   },
   {
     "id_descarga": 6,
     "id_apunte": 6,
     "id_estudiante": 1,
-    "fecha": "2025-09-17"
+    "fecha": "2025-09-17",
+    "idDescarga": 6,
+    "idEstudiante": 206
   },
   {
     "id_descarga": 7,
     "id_apunte": 7,
     "id_estudiante": 14,
-    "fecha": "2025-09-18"
+    "fecha": "2025-09-18",
+    "idDescarga": 7,
+    "idEstudiante": 207
   },
   {
     "id_descarga": 8,
     "id_apunte": 8,
     "id_estudiante": 20,
-    "fecha": "2025-09-19"
+    "fecha": "2025-09-19",
+    "idDescarga": 8,
+    "idEstudiante": 208
   },
   {
     "id_descarga": 9,
     "id_apunte": 9,
     "id_estudiante": 7,
-    "fecha": "2025-09-22"
+    "fecha": "2025-09-22",
+    "idDescarga": 9,
+    "idEstudiante": 209
   },
   {
     "id_descarga": 10,
     "id_apunte": 10,
     "id_estudiante": 10,
-    "fecha": "2025-09-23"
+    "fecha": "2025-09-23",
+    "idDescarga": 10,
+    "idEstudiante": 210
   },
   {
     "id_descarga": 11,
     "id_apunte": 11,
     "id_estudiante": 4,
-    "fecha": "2025-09-24"
+    "fecha": "2025-09-24",
+    "idDescarga": 11,
+    "idEstudiante": 211
   },
   {
     "id_descarga": 12,
     "id_apunte": 12,
     "id_estudiante": 16,
-    "fecha": "2025-09-25"
+    "fecha": "2025-09-25",
+    "idDescarga": 12,
+    "idEstudiante": 212
   },
   {
     "id_descarga": 13,
     "id_apunte": 13,
     "id_estudiante": 9,
-    "fecha": "2025-09-26"
+    "fecha": "2025-09-26",
+    "idDescarga": 13,
+    "idEstudiante": 213
   },
   {
     "id_descarga": 14,
     "id_apunte": 14,
     "id_estudiante": 2,
-    "fecha": "2025-09-29"
+    "fecha": "2025-09-29",
+    "idDescarga": 14,
+    "idEstudiante": 214
   },
   {
     "id_descarga": 15,
     "id_apunte": 15,
     "id_estudiante": 13,
-    "fecha": "2025-09-30"
+    "fecha": "2025-09-30",
+    "idDescarga": 15,
+    "idEstudiante": 215
   },
   {
     "id_descarga": 16,
     "id_apunte": 16,
     "id_estudiante": 6,
-    "fecha": "2025-10-01"
+    "fecha": "2025-10-01",
+    "idDescarga": 16,
+    "idEstudiante": 216
   },
   {
     "id_descarga": 17,
     "id_apunte": 17,
     "id_estudiante": 19,
-    "fecha": "2025-10-02"
+    "fecha": "2025-10-02",
+    "idDescarga": 17,
+    "idEstudiante": 217
   },
   {
     "id_descarga": 18,
     "id_apunte": 18,
     "id_estudiante": 11,
-    "fecha": "2025-10-03"
+    "fecha": "2025-10-03",
+    "idDescarga": 18,
+    "idEstudiante": 218
   },
   {
     "id_descarga": 19,
     "id_apunte": 19,
     "id_estudiante": 15,
-    "fecha": "2025-10-04"
+    "fecha": "2025-10-04",
+    "idDescarga": 19,
+    "idEstudiante": 219
   },
   {
     "id_descarga": 20,
     "id_apunte": 20,
     "id_estudiante": 18,
-    "fecha": "2025-10-06"
+    "fecha": "2025-10-06",
+    "idDescarga": 20,
+    "idEstudiante": 220
   }
 ]

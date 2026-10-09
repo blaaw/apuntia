@@ -1,0 +1,75 @@
+/* Admin landing page styles - Apuntia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #f8f9fa;
+    color: #111d4a;
+}
+
+.admin-layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* Professors section */
+.professors-section {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    padding: 2rem;
+}
+
+.professors-section h2 {
+    color: #111d4a;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.75rem;
+}
+
+/* Students section */
+.students-section {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    padding: 2rem;
+}
+
+.students-section h2 {
+    color: #111d4a;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.75rem;
+}
+
+/* Empty state messages */
+.section-content p {
+    color: #666;
+    font-size: 1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .admin-layout {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    
+    .professors-section,
+    .students-section {
+        padding: 1.5rem;
+    }
+}

@@ -3,120 +3,180 @@
     "id_clase": 1,
     "id_profesor": 1,
     "id_estudiante": 1,
-    "fecha": "2025-09-08"
+    "fecha": "2025-09-08",
+    "idClase": 1,
+    "idProfesor": 101,
+    "idEstudiante": 201
   },
   {
     "id_clase": 2,
     "id_profesor": 2,
     "id_estudiante": 2,
-    "fecha": "2025-09-09"
+    "fecha": "2025-09-09",
+    "idClase": 2,
+    "idProfesor": 102,
+    "idEstudiante": 202
   },
   {
     "id_clase": 3,
     "id_profesor": 3,
     "id_estudiante": 3,
-    "fecha": "2025-09-10"
+    "fecha": "2025-09-10",
+    "idClase": 3,
+    "idProfesor": 103,
+    "idEstudiante": 203
   },
   {
     "id_clase": 4,
     "id_profesor": 4,
     "id_estudiante": 4,
-    "fecha": "2025-09-11"
+    "fecha": "2025-09-11",
+    "idClase": 4,
+    "idProfesor": 104,
+    "idEstudiante": 204
   },
   {
     "id_clase": 5,
     "id_profesor": 5,
     "id_estudiante": 5,
-    "fecha": "2025-09-12"
+    "fecha": "2025-09-12",
+    "idClase": 5,
+    "idProfesor": 105,
+    "idEstudiante": 205
   },
   {
     "id_clase": 6,
     "id_profesor": 6,
     "id_estudiante": 6,
-    "fecha": "2025-09-15"
+    "fecha": "2025-09-15",
+    "idClase": 6,
+    "idProfesor": 106,
+    "idEstudiante": 206
   },
   {
     "id_clase": 7,
     "id_profesor": 7,
     "id_estudiante": 7,
-    "fecha": "2025-09-16"
+    "fecha": "2025-09-16",
+    "idClase": 7,
+    "idProfesor": 107,
+    "idEstudiante": 207
   },
   {
     "id_clase": 8,
     "id_profesor": 8,
     "id_estudiante": 8,
-    "fecha": "2025-09-17"
+    "fecha": "2025-09-17",
+    "idClase": 8,
+    "idProfesor": 108,
+    "idEstudiante": 208
   },
   {
     "id_clase": 9,
     "id_profesor": 1,
     "id_estudiante": 9,
-    "fecha": "2025-09-18"
+    "fecha": "2025-09-18",
+    "idClase": 9,
+    "idProfesor": 109,
+    "idEstudiante": 209
   },
   {
     "id_clase": 10,
     "id_profesor": 2,
     "id_estudiante": 10,
-    "fecha": "2025-09-19"
+    "fecha": "2025-09-19",
+    "idClase": 10,
+    "idProfesor": 110,
+    "idEstudiante": 210
   },
   {
     "id_clase": 11,
     "id_profesor": 3,
     "id_estudiante": 11,
-    "fecha": "2025-09-22"
+    "fecha": "2025-09-22",
+    "idClase": 11,
+    "idProfesor": 111,
+    "idEstudiante": 211
   },
   {
     "id_clase": 12,
     "id_profesor": 4,
     "id_estudiante": 12,
-    "fecha": "2025-09-23"
+    "fecha": "2025-09-23",
+    "idClase": 12,
+    "idProfesor": 112,
+    "idEstudiante": 212
   },
   {
     "id_clase": 13,
     "id_profesor": 5,
     "id_estudiante": 13,
-    "fecha": "2025-09-24"
+    "fecha": "2025-09-24",
+    "idClase": 13,
+    "idProfesor": 113,
+    "idEstudiante": 213
   },
   {
     "id_clase": 14,
     "id_profesor": 6,
     "id_estudiante": 14,
-    "fecha": "2025-09-25"
+    "fecha": "2025-09-25",
+    "idClase": 14,
+    "idProfesor": 114,
+    "idEstudiante": 214
   },
   {
     "id_clase": 15,
     "id_profesor": 7,
     "id_estudiante": 15,
-    "fecha": "2025-09-26"
+    "fecha": "2025-09-26",
+    "idClase": 15,
+    "idProfesor": 115,
+    "idEstudiante": 215
   },
   {
     "id_clase": 16,
     "id_profesor": 8,
     "id_estudiante": 16,
-    "fecha": "2025-09-29"
+    "fecha": "2025-09-29",
+    "idClase": 16,
+    "idProfesor": 116,
+    "idEstudiante": 216
   },
   {
     "id_clase": 17,
     "id_profesor": 1,
     "id_estudiante": 17,
-    "fecha": "2025-09-30"
+    "fecha": "2025-09-30",
+    "idClase": 17,
+    "idProfesor": 117,
+    "idEstudiante": 217
   },
   {
     "id_clase": 18,
     "id_profesor": 3,
     "id_estudiante": 18,
-    "fecha": "2025-10-01"
+    "fecha": "2025-10-01",
+    "idClase": 18,
+    "idProfesor": 118,
+    "idEstudiante": 218
   },
   {
     "id_clase": 19,
     "id_profesor": 5,
     "id_estudiante": 19,
-    "fecha": "2025-10-02"
+    "fecha": "2025-10-02",
+    "idClase": 19,
+    "idProfesor": 119,
+    "idEstudiante": 219
   },
   {
     "id_clase": 20,
     "id_profesor": 8,
     "id_estudiante": 20,
-    "fecha": "2025-10-03"
+    "fecha": "2025-10-03",
+    "idClase": 20,
+    "idProfesor": 120,
+    "idEstudiante": 220
   }
 ]
