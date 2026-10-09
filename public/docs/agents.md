@@ -28,7 +28,22 @@ Este archivo contiene instrucciones y directrices para el agente de IA que traba
 ### Directrices de estilo
 - HTML y CSS deben ser sencillos y bonitos: planos, estéticos, minimalistas y funcionales.
 - No usar colores chocantes ni bordes super redondeados.
-- Paleta de colores para todo el proyecto: #8789c0, #45f0df, #c2cae8, #8380b6, #111d4a, blanco y negro.
+- **Paleta principal: #8789c0, #45f0df, #c2cae8, #8380b6, #111d4a, blanco y negro.**
+- **Usar #111d4a (navy oscuro) y blanco como colores principales de texto** para garantizar legibilidad y contraste suficiente.
+- **Principio de contraste:** Siempre verificar que el texto sobre el fondo tenga una razón de contraste mínima 4.5:1 (normal text) o 3:1 (large text). El combo #111d4a sobre fondo blanco es 8.5:1, ideal.
+- **Diseño light-friendly:** Preferir fondos claros (#f8f9fa o blanco) para reducir la fatiga visual. Los fondos oscuros (#111d4a) solo usarse para acentos o modo nocturno opcional.
+- **Aplicar la paleta con criterio, "a tiro" prohibido:** Cada color tiene un rol definido:
+  - `#111d4a`: texto principal, headings, bordes sutiles
+  - `#45f0df` (cyan): botones de acción primaria, enlaces de acento
+  - `#c2cae8` (lavanda claro): fondos de inputs o áreas secundarias
+  - `#8380b6` (morado apagado): hover states, bordes activos
+  - `#8789c0` (lila medio): secundario, estados disabled o etiquetas
+  - Blanco: fondos limpios, espacio negativo
+  - Negro: solo si es necesario para texto sobre fondos muy claros
+- **Nunca combinar colores "a ciegas":** Si dudas, usa el contraste #111d4a sobre blanco o fondo claro con texto #111d4a. Es la combinación más segura y profesional.
+- **Evitar bordes super redondeados:** `border-radius: 0` o como máximo 2px para mantener el estilo flat.
+- **Estados interactivos:** Hover, focus y active deben usar colores de la paleta, no colores al azar. El focus state debe tener outline o box-shadow con un color de la paleta para accesibilidad.
+- **Transiciones suaves:** Todos los cambios de color/background deben tener `transition: background 0.2s, color 0.2s` o similar para evitar cambios bruscos.
 
 ### Restricciones
 - No borrar ni modificar archivos existentes sin documentar el cambio en readme.md.
