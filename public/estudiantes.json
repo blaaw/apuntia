@@ -1,0 +1,182 @@
+[
+  {
+    "id_estudiante": 201,
+    "dni": "12345678Z",
+    "codigo_acceso": 4821,
+    "nombre": "Alejandro García Fernández",
+    "foto": "https://i.pravatar.cc/150?img=11",
+    "datos_bancarios": "000000000000000000000001",
+    "fecha_alta": "2025-09-01"
+  },
+  {
+    "id_estudiante": 202,
+    "dni": "23456789D",
+    "codigo_acceso": 7352,
+    "nombre": "Lucía Martínez Sánchez",
+    "foto": "https://i.pravatar.cc/150?img=12",
+    "datos_bancarios": "000000000000000000000002",
+    "fecha_alta": "2025-09-02"
+  },
+  {
+    "id_estudiante": 203,
+    "dni": "34567890V",
+    "codigo_acceso": 1946,
+    "nombre": "Daniel López Rodríguez",
+    "foto": "https://i.pravatar.cc/150?img=13",
+    "datos_bancarios": "000000000000000000000003",
+    "fecha_alta": "2025-09-03"
+  },
+  {
+    "id_estudiante": 204,
+    "dni": "45678901H",
+    "codigo_acceso": 6284,
+    "nombre": "Sofía González Pérez",
+    "foto": "https://i.pravatar.cc/150?img=14",
+    "datos_bancarios": "000000000000000000000004",
+    "fecha_alta": "2025-09-04"
+  },
+  {
+    "id_estudiante": 205,
+    "dni": "56789012L",
+    "codigo_acceso": 3517,
+    "nombre": "Pablo Sánchez Moreno",
+    "foto": "https://i.pravatar.cc/150?img=15",
+    "datos_bancarios": "000000000000000000000005",
+    "fecha_alta": "2025-09-05"
+  },
+  {
+    "id_estudiante": 206,
+    "dni": "67890123C",
+    "codigo_acceso": 8463,
+    "nombre": "Martina Romero Díaz",
+    "foto": "https://i.pravatar.cc/150?img=16",
+    "datos_bancarios": "000000000000000000000006",
+    "fecha_alta": "2025-09-08"
+  },
+  {
+    "id_estudiante": 207,
+    "dni": "78901234M",
+    "codigo_acceso": 2195,
+    "nombre": "Javier Torres Navarro",
+    "foto": "https://i.pravatar.cc/150?img=17",
+    "datos_bancarios": "000000000000000000000007",
+    "fecha_alta": "2025-09-09"
+  },
+  {
+    "id_estudiante": 208,
+    "dni": "89012345X",
+    "codigo_acceso": 5748,
+    "nombre": "Carla Vázquez Ruiz",
+    "foto": "https://i.pravatar.cc/150?img=18",
+    "datos_bancarios": "000000000000000000000008",
+    "fecha_alta": "2025-09-10"
+  },
+  {
+    "id_estudiante": 209,
+    "dni": "90123456A",
+    "codigo_acceso": 9631,
+    "nombre": "Álvaro Jiménez Castro",
+    "foto": "https://i.pravatar.cc/150?img=19",
+    "datos_bancarios": "000000000000000000000009",
+    "fecha_alta": "2025-09-11"
+  },
+  {
+    "id_estudiante": 210,
+    "dni": "11223344B",
+    "codigo_acceso": 4076,
+    "nombre": "Elena Navarro Martín",
+    "foto": "https://i.pravatar.cc/150?img=20",
+    "datos_bancarios": "000000000000000000000010",
+    "fecha_alta": "2025-09-12"
+  },
+  {
+    "id_estudiante": 211,
+    "dni": "22334455N",
+    "codigo_acceso": 8159,
+    "nombre": "Hugo Martín Iglesias",
+    "foto": "https://i.pravatar.cc/150?img=21",
+    "datos_bancarios": "000000000000000000000011",
+    "fecha_alta": "2025-09-15"
+  },
+  {
+    "id_estudiante": 212,
+    "dni": "33445566J",
+    "codigo_acceso": 3264,
+    "nombre": "Claudia Moreno Ortega",
+    "foto": "https://i.pravatar.cc/150?img=22",
+    "datos_bancarios": "000000000000000000000012",
+    "fecha_alta": "2025-09-16"
+  },
+  {
+    "id_estudiante": 213,
+    "dni": "44556677Z",
+    "codigo_acceso": 7418,
+    "nombre": "Diego Ortega Molina",
+    "foto": "https://i.pravatar.cc/150?img=23",
+    "datos_bancarios": "000000000000000000000013",
+    "fecha_alta": "2025-09-17"
+  },
+  {
+    "id_estudiante": 214,
+    "dni": "55667788R",
+    "codigo_acceso": 5830,
+    "nombre": "Valeria Molina Santos",
+    "foto": "https://i.pravatar.cc/150?img=24",
+    "datos_bancarios": "000000000000000000000014",
+    "fecha_alta": "2025-09-18"
+  },
+  {
+    "id_estudiante": 215,
+    "dni": "66778899W",
+    "codigo_acceso": 1652,
+    "nombre": "Mario Santos Vidal",
+    "foto": "https://i.pravatar.cc/150?img=25",
+    "datos_bancarios": "000000000000000000000015",
+    "fecha_alta": "2025-09-19"
+  },
+  {
+    "id_estudiante": 216,
+    "dni": "77889900E",
+    "codigo_acceso": 9047,
+    "nombre": "Irene Vidal Herrera",
+    "foto": "https://i.pravatar.cc/150?img=26",
+    "datos_bancarios": "000000000000000000000016",
+    "fecha_alta": "2025-09-22"
+  },
+  {
+    "id_estudiante": 217,
+    "dni": "88990011T",
+    "codigo_acceso": 4385,
+    "nombre": "Adrián Herrera Ramos",
+    "foto": "https://i.pravatar.cc/150?img=27",
+    "datos_bancarios": "000000000000000000000017",
+    "fecha_alta": "2025-09-23"
+  },
+  {
+    "id_estudiante": 218,
+    "dni": "99001122Y",
+    "codigo_acceso": 6729,
+    "nombre": "Natalia Ramos Prieto",
+    "foto": "https://i.pravatar.cc/150?img=28",
+    "datos_bancarios": "000000000000000000000018",
+    "fecha_alta": "2025-09-24"
+  },
+  {
+    "id_estudiante": 219,
+    "dni": "10293847F",
+    "codigo_acceso": 2516,
+    "nombre": "Sergio Prieto Domínguez",
+    "foto": "https://i.pravatar.cc/150?img=29",
+    "datos_bancarios": "000000000000000000000019",
+    "fecha_alta": "2025-09-25"
+  },
+  {
+    "id_estudiante": 220,
+    "dni": "91827364P",
+    "codigo_acceso": 8934,
+    "nombre": "Paula Domínguez León",
+    "foto": "https://i.pravatar.cc/150?img=30",
+    "datos_bancarios": "000000000000000000000020",
+    "fecha_alta": "2025-09-26"
+  }
+]

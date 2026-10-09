@@ -1,0 +1,122 @@
+[
+  {
+    "id_descarga": 1,
+    "id_apunte": 1,
+    "id_estudiante": 5,
+    "fecha": "2025-09-10"
+  },
+  {
+    "id_descarga": 2,
+    "id_apunte": 2,
+    "id_estudiante": 8,
+    "fecha": "2025-09-11"
+  },
+  {
+    "id_descarga": 3,
+    "id_apunte": 3,
+    "id_estudiante": 12,
+    "fecha": "2025-09-12"
+  },
+  {
+    "id_descarga": 4,
+    "id_apunte": 4,
+    "id_estudiante": 3,
+    "fecha": "2025-09-15"
+  },
+  {
+    "id_descarga": 5,
+    "id_apunte": 5,
+    "id_estudiante": 17,
+    "fecha": "2025-09-16"
+  },
+  {
+    "id_descarga": 6,
+    "id_apunte": 6,
+    "id_estudiante": 1,
+    "fecha": "2025-09-17"
+  },
+  {
+    "id_descarga": 7,
+    "id_apunte": 7,
+    "id_estudiante": 14,
+    "fecha": "2025-09-18"
+  },
+  {
+    "id_descarga": 8,
+    "id_apunte": 8,
+    "id_estudiante": 20,
+    "fecha": "2025-09-19"
+  },
+  {
+    "id_descarga": 9,
+    "id_apunte": 9,
+    "id_estudiante": 7,
+    "fecha": "2025-09-22"
+  },
+  {
+    "id_descarga": 10,
+    "id_apunte": 10,
+    "id_estudiante": 10,
+    "fecha": "2025-09-23"
+  },
+  {
+    "id_descarga": 11,
+    "id_apunte": 11,
+    "id_estudiante": 4,
+    "fecha": "2025-09-24"
+  },
+  {
+    "id_descarga": 12,
+    "id_apunte": 12,
+    "id_estudiante": 16,
+    "fecha": "2025-09-25"
+  },
+  {
+    "id_descarga": 13,
+    "id_apunte": 13,
+    "id_estudiante": 9,
+    "fecha": "2025-09-26"
+  },
+  {
+    "id_descarga": 14,
+    "id_apunte": 14,
+    "id_estudiante": 2,
+    "fecha": "2025-09-29"
+  },
+  {
+    "id_descarga": 15,
+    "id_apunte": 15,
+    "id_estudiante": 13,
+    "fecha": "2025-09-30"
+  },
+  {
+    "id_descarga": 16,
+    "id_apunte": 16,
+    "id_estudiante": 6,
+    "fecha": "2025-10-01"
+  },
+  {
+    "id_descarga": 17,
+    "id_apunte": 17,
+    "id_estudiante": 19,
+    "fecha": "2025-10-02"
+  },
+  {
+    "id_descarga": 18,
+    "id_apunte": 18,
+    "id_estudiante": 11,
+    "fecha": "2025-10-03"
+  },
+  {
+    "id_descarga": 19,
+    "id_apunte": 19,
+    "id_estudiante": 15,
+    "fecha": "2025-10-04"
+  },
+  {
+    "id_descarga": 20,
+    "id_apunte": 20,
+    "id_estudiante": 18,
+    "fecha": "2025-10-06"
+  }
+]

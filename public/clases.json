@@ -1,0 +1,122 @@
+[
+  {
+    "id_clase": 1,
+    "id_profesor": 1,
+    "id_estudiante": 1,
+    "fecha": "2025-09-08"
+  },
+  {
+    "id_clase": 2,
+    "id_profesor": 2,
+    "id_estudiante": 2,
+    "fecha": "2025-09-09"
+  },
+  {
+    "id_clase": 3,
+    "id_profesor": 3,
+    "id_estudiante": 3,
+    "fecha": "2025-09-10"
+  },
+  {
+    "id_clase": 4,
+    "id_profesor": 4,
+    "id_estudiante": 4,
+    "fecha": "2025-09-11"
+  },
+  {
+    "id_clase": 5,
+    "id_profesor": 5,
+    "id_estudiante": 5,
+    "fecha": "2025-09-12"
+  },
+  {
+    "id_clase": 6,
+    "id_profesor": 6,
+    "id_estudiante": 6,
+    "fecha": "2025-09-15"
+  },
+  {
+    "id_clase": 7,
+    "id_profesor": 7,
+    "id_estudiante": 7,
+    "fecha": "2025-09-16"
+  },
+  {
+    "id_clase": 8,
+    "id_profesor": 8,
+    "id_estudiante": 8,
+    "fecha": "2025-09-17"
+  },
+  {
+    "id_clase": 9,
+    "id_profesor": 1,
+    "id_estudiante": 9,
+    "fecha": "2025-09-18"
+  },
+  {
+    "id_clase": 10,
+    "id_profesor": 2,
+    "id_estudiante": 10,
+    "fecha": "2025-09-19"
+  },
+  {
+    "id_clase": 11,
+    "id_profesor": 3,
+    "id_estudiante": 11,
+    "fecha": "2025-09-22"
+  },
+  {
+    "id_clase": 12,
+    "id_profesor": 4,
+    "id_estudiante": 12,
+    "fecha": "2025-09-23"
+  },
+  {
+    "id_clase": 13,
+    "id_profesor": 5,
+    "id_estudiante": 13,
+    "fecha": "2025-09-24"
+  },
+  {
+    "id_clase": 14,
+    "id_profesor": 6,
+    "id_estudiante": 14,
+    "fecha": "2025-09-25"
+  },
+  {
+    "id_clase": 15,
+    "id_profesor": 7,
+    "id_estudiante": 15,
+    "fecha": "2025-09-26"
+  },
+  {
+    "id_clase": 16,
+    "id_profesor": 8,
+    "id_estudiante": 16,
+    "fecha": "2025-09-29"
+  },
+  {
+    "id_clase": 17,
+    "id_profesor": 1,
+    "id_estudiante": 17,
+    "fecha": "2025-09-30"
+  },
+  {
+    "id_clase": 18,
+    "id_profesor": 3,
+    "id_estudiante": 18,
+    "fecha": "2025-10-01"
+  },
+  {
+    "id_clase": 19,
+    "id_profesor": 5,
+    "id_estudiante": 19,
+    "fecha": "2025-10-02"
+  },
+  {
+    "id_clase": 20,
+    "id_profesor": 8,
+    "id_estudiante": 20,
+    "fecha": "2025-10-03"
+  }
+]
