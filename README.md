@@ -35,13 +35,3 @@ apuntia/
 └── styles/
     └── login.css            # Estilos base (reset CSS)
 ```
-
-### Plan de desarrollo
-Futuras iteraciones incluyen:
-- Autenticación de roles (estudiante/profesor/admin).
-- Subida y descarga de archivos (apuntes).
-- Sistema de pagos para clases particulares.
-- Panel de administración para gestionar cuentas.
-
-### Próximos pasos (cuando tú indiques)
-Vamos a ir añadiendo funcionalidades paso a paso y documentando los avances en `./readme.md`. También iré guardando instrucciones necesarias en `public/docs/agents.md`.
