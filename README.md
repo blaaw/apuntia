@@ -10,12 +10,10 @@
 - **Administradores**: Cuentas detrás que gestionan el negocio (validación de cuentas, cobros, etc.).
 
 ### Arquitectura actual
-El proyecto está en una fase muy temprana de estructura/scaffolding. Actualmente incluye:
-
-- **Frontend básico**: HTML estático con páginas para cada rol (landing pages vacías).
-- **Estilos**: CSS minimalista (reset global).
-- **Lógica JavaScript**: Archivo `src/login.js` con un `onload` básico que imprime "js connected".
-- **Servicio backend/Docker**: Configuración nginx con `docker-compose.yml` y `Dockerfile` para despliegue rápido.
+El proyecto tiene las siguientes partes:
+- **Landing pages**: una por rol (admin, estudiante, profesor).
+- **index.html**: Página principal, corresponde al login.
+- **Configuración Docker y nginx**: `docker-compose.yml`, `Dockerfile`, `nginx.conf`.
 
 ### Estructura de carpetas
 ```
@@ -27,9 +25,9 @@ apuntia/
 ├── index.html               # Página principal (login)
 ├── pages/
 │   └── landing/
-│       ├── admin.html         # Landing para administradores (vacío)
-│       ├── estudiante.html  # Landing para estudiantes (vacío)
-│       └── profesor.html    # Landing para profesores (vacío)
+│       ├── admin.html         # Landing para administradores
+│       ├── estudiante.html  # Landing para estudiantes
+│       └── profesor.html    # Landing para profesores
 ├── public/
 │   └── docs/                # ← Documentación para agentes (generada por ti)
 ├── src/

@@ -25,6 +25,11 @@ Este archivo contiene instrucciones y directrices para el agente de IA que traba
 4. **Guardar instrucciones**: Cualquier nueva regla o patrón debe añadirse a agents.md.
 5. **Commit**: Realizar un commit con los cambios después de cada bloque significativo de trabajo.
 
+### Directrices de estilo
+- HTML y CSS deben ser sencillos y bonitos: planos, estéticos, minimalistas y funcionales.
+- No usar colores chocantes ni bordes super redondeados.
+- Paleta de colores para todo el proyecto: #8789c0, #45f0df, #c2cae8, #8380b6, #111d4a, blanco y negro.
+
 ### Restricciones
 - No borrar ni modificar archivos existentes sin documentar el cambio en readme.md.
 - Mantener la coherencia en la estructura de carpetas y nombres de archivos.
