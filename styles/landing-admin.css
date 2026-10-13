@@ -22,30 +22,14 @@ body {
 }
 
 /* Professors section */
-.professors-section {
+.overview-section {
     background: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 0;
     padding: 2rem;
 }
 
-.professors-section h2 {
-    color: #111d4a;
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 0.75rem;
-}
-
-/* Students section */
-.students-section {
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 0;
-    padding: 2rem;
-}
-
-.students-section h2 {
+.overview-section h2 {
     color: #111d4a;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
@@ -68,8 +52,7 @@ body {
         padding: 1rem;
     }
     
-    .professors-section,
-    .students-section {
+    .overview-section {
         padding: 1.5rem;
     }
 }
