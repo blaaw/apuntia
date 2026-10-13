@@ -4,6 +4,12 @@ onload = () => {
         cargarEjecutar(`../../public/${lista}.json`, listaJSON => {
            console.log(listaJSON) 
            console.log(listaJSON.length) 
+
+           document.querySelector(".overview-section div")
+            .insertAdjacentHTML("beforeend",
+                `<div class="overview-totales">Total de ${lista}</div>
+                <div class="overview-totales">${listaJSON.length}</div>`
+            )
         })
     })
 }

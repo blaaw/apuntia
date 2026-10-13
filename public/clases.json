@@ -88,35 +88,5 @@
     "id_profesor": 107,
     "id_estudiante": 215,
     "fecha": "2025-09-26"
-  },
-  {
-    "id_clase": 16,
-    "id_profesor": 108,
-    "id_estudiante": 216,
-    "fecha": "2025-09-29"
-  },
-  {
-    "id_clase": 17,
-    "id_profesor": 101,
-    "id_estudiante": 217,
-    "fecha": "2025-09-30"
-  },
-  {
-    "id_clase": 18,
-    "id_profesor": 103,
-    "id_estudiante": 218,
-    "fecha": "2025-10-01"
-  },
-  {
-    "id_clase": 19,
-    "id_profesor": 105,
-    "id_estudiante": 219,
-    "fecha": "2025-10-02"
-  },
-  {
-    "id_clase": 20,
-    "id_profesor": 108,
-    "id_estudiante": 220,
-    "fecha": "2025-10-03"
   }
 ]

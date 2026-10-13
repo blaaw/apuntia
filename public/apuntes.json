@@ -158,5 +158,37 @@
     "descripcion": "Resumen final de la asignatura con los conceptos esenciales y recomendaciones de estudio.",
     "tipo": "pdf",
     "nombre_archivo": "resumen_final.pdf"
+  },
+  {
+    "id_apunte": 21,
+    "id_profesor": 101,
+    "fecha_ultimo_cambio": "2025-06-15",
+    "descripcion": "Material de refuerzo para la unidad de introducción.",
+    "tipo": "pdf",
+    "nombre_archivo": "refuerzo_intro.pdf"
+  },
+  {
+    "id_apunte": 22,
+    "id_profesor": 102,
+    "fecha_ultimo_cambio": "2025-06-18",
+    "descripcion": "Ejercicios prácticos de la sesión 3.",
+    "tipo": "word",
+    "nombre_archivo": "ejercicios_sesion3.docx"
+  },
+  {
+    "id_apunte": 23,
+    "id_profesor": 103,
+    "fecha_ultimo_cambio": "2025-06-20",
+    "descripcion": "Presentación de casos de estudio reales.",
+    "tipo": "ppt",
+    "nombre_archivo": "casos_estudio.pptx"
+  },
+  {
+    "id_apunte": 24,
+    "id_profesor": 104,
+    "fecha_ultimo_cambio": "2025-06-22",
+    "descripcion": "Video resumen de la semana.",
+    "tipo": "video",
+    "nombre_archivo": "resumen_semana.mp4"
   }
 ]

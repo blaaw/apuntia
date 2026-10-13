@@ -37,6 +37,27 @@ body {
     padding-bottom: 0.75rem;
 }
 
+/* Totales de la vista general */
+.section-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.overview-totales {
+    text-align: center;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    min-width: 80px;
+}
+
+.overview-totales:nth-child(odd) {
+    text-align: left;
+    font-weight: 500;
+}
+
 /* Empty state messages */
 .section-content p {
     color: #666;

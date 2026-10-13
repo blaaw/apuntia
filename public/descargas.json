@@ -100,23 +100,5 @@
     "id_apunte": 17,
     "id_estudiante": 219,
     "fecha": "2025-10-02"
-  },
-  {
-    "id_descarga": 18,
-    "id_apunte": 18,
-    "id_estudiante": 211,
-    "fecha": "2025-10-03"
-  },
-  {
-    "id_descarga": 19,
-    "id_apunte": 19,
-    "id_estudiante": 215,
-    "fecha": "2025-10-04"
-  },
-  {
-    "id_descarga": 20,
-    "id_apunte": 20,
-    "id_estudiante": 218,
-    "fecha": "2025-10-06"
   }
 ]
