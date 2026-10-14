@@ -88,87 +88,135 @@
     "fecha_alta": "2024-09-26"
   },
   {
+    "id_profesor": 109,
     "dni": "90123456Q",
     "codigo_acceso": 1111,
     "nombre": "Carlos Ruiz",
     "foto": "https://i.pravatar.cc/150?img=31",
-    "id_profesor": 109
+    "likes": 87,
+    "datos_bancarios": "000000000000000000000109",
+    "disponibilidad": "Lunes y miércoles de 10:00 a 14:00. Jueves de 17:00 a 20:00.",
+    "fecha_alta": "2025-01-15"
   },
   {
+    "id_profesor": 110,
     "dni": "01234567A",
     "codigo_acceso": 2222,
     "nombre": "Laura Gómez",
     "foto": "https://i.pravatar.cc/150?img=32",
-    "id_profesor": 110
+    "likes": 203,
+    "datos_bancarios": "000000000000000000000110",
+    "disponibilidad": "De lunes a viernes de 09:00 a 13:00. Miércoles de 16:00 a 19:00.",
+    "fecha_alta": "2025-01-27"
   },
   {
+    "id_profesor": 111,
     "dni": "11223344B",
     "codigo_acceso": 3333,
     "nombre": "Miguel Torres",
     "foto": "https://i.pravatar.cc/150?img=33",
-    "id_profesor": 111
+    "likes": 142,
+    "datos_bancarios": "000000000000000000000111",
+    "disponibilidad": "Martes y jueves de 08:00 a 12:00. Lunes y miércoles de 15:00 a 18:00.",
+    "fecha_alta": "2025-02-10"
   },
   {
+    "id_profesor": 112,
     "dni": "22334455C",
     "codigo_acceso": 4444,
     "nombre": "Ana Martínez",
     "foto": "https://i.pravatar.cc/150?img=34",
-    "id_profesor": 112
+    "likes": 265,
+    "datos_bancarios": "000000000000000000000112",
+    "disponibilidad": "Lunes, miércoles y viernes de 11:00 a 15:00. Martes de 17:00 a 20:00.",
+    "fecha_alta": "2025-02-24"
   },
   {
+    "id_profesor": 113,
     "dni": "33445566D",
     "codigo_acceso": 5555,
     "nombre": "Pablo Fernández",
     "foto": "https://i.pravatar.cc/150?img=35",
-    "id_profesor": 113
+    "likes": 118,
+    "datos_bancarios": "000000000000000000000113",
+    "disponibilidad": "De lunes a jueves de 09:30 a 13:30. Viernes de 10:00 a 14:00.",
+    "fecha_alta": "2025-03-05"
   },
   {
+    "id_profesor": 114,
     "dni": "44556677E",
     "codigo_acceso": 6666,
     "nombre": "Sofía Ramírez",
     "foto": "https://i.pravatar.cc/150?img=36",
-    "id_profesor": 114
+    "likes": 231,
+    "datos_bancarios": "000000000000000000000114",
+    "disponibilidad": "Lunes y jueves de 10:00 a 14:00. Miércoles de 16:00 a 19:00.",
+    "fecha_alta": "2025-03-19"
   },
   {
+    "id_profesor": 115,
     "dni": "55667788F",
     "codigo_acceso": 7777,
     "nombre": "David Herrera",
     "foto": "https://i.pravatar.cc/150?img=37",
-    "id_profesor": 115
+    "likes": 96,
+    "datos_bancarios": "000000000000000000000115",
+    "disponibilidad": "Martes, miércoles y viernes de 08:00 a 12:00. Jueves de 18:00 a 21:00.",
+    "fecha_alta": "2025-04-02"
   },
   {
+    "id_profesor": 116,
     "dni": "66778899G",
     "codigo_acceso": 8888,
     "nombre": "Isabel Díaz",
     "foto": "https://i.pravatar.cc/150?img=38",
-    "id_profesor": 116
+    "likes": 174,
+    "datos_bancarios": "000000000000000000000116",
+    "disponibilidad": "De lunes a viernes de 10:00 a 14:00. También disponible los martes de 16:00 a 19:00.",
+    "fecha_alta": "2025-04-16"
   },
   {
+    "id_profesor": 117,
     "dni": "77889900H",
     "codigo_acceso": 9999,
     "nombre": "Roberto Vargas",
     "foto": "https://i.pravatar.cc/150?img=39",
-    "id_profesor": 117
+    "likes": 289,
+    "datos_bancarios": "000000000000000000000117",
+    "disponibilidad": "Lunes y miércoles de 09:00 a 13:00. Jueves y viernes de 15:00 a 19:00.",
+    "fecha_alta": "2025-04-30"
   },
   {
+    "id_profesor": 118,
     "dni": "88990011I",
     "codigo_acceso": 1010,
     "nombre": "Patricia López",
     "foto": "https://i.pravatar.cc/150?img=40",
-    "id_profesor": 118
+    "likes": 133,
+    "datos_bancarios": "000000000000000000000118",
+    "disponibilidad": "Martes y viernes de 10:00 a 14:00. Lunes, miércoles y jueves de 16:00 a 20:00.",
+    "fecha_alta": "2025-05-14"
   },
   {
+    "id_profesor": 119,
     "dni": "99001122J",
     "codigo_acceso": 1112,
     "nombre": "Andrés Soto",
     "foto": "https://i.pravatar.cc/150?img=41",
-    "id_profesor": 119
+    "likes": 198,
+    "datos_bancarios": "000000000000000000000119",
+    "disponibilidad": "De lunes a viernes de 09:00 a 13:00. Miércoles de 17:00 a 20:00.",
+    "fecha_alta": "2025-05-28"
   },
   {
+    "id_profesor": 120,
     "dni": "00112233K",
     "codigo_acceso": 1213,
     "nombre": "Elena Moreno",
     "foto": "https://i.pravatar.cc/150?img=42",
-    "id_profesor": 120
+    "likes": 156,
+    "datos_bancarios": "000000000000000000000120",
+    "disponibilidad": "Lunes, miércoles y jueves de 11:00 a 15:00. Martes de 16:00 a 19:00.",
+    "fecha_alta": "2025-06-11"
   }
 ]
