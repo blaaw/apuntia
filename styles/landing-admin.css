@@ -1,4 +1,6 @@
 /* Admin landing page styles - Apuntia */
+/* Paleta: #111d4a (texto) · #45f0df (acento) · #c2cae8 (bordes) · #8380b6 (hover) · #8789c0 (secundario) */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,78 +9,204 @@
 
 body {
     min-height: 100vh;
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
     background: #f8f9fa;
     color: #111d4a;
 }
 
+/* Layout general: una columna, secciones a ancho completo */
 .admin-layout {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2.5rem 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
-/* General sections */
+/* Sections */
 .overview-section {
     background: #fff;
-    border: 1px solid #e0e0e0;
-    border-radius: 0;
-    padding: 2rem;
+    border: 1px solid #c2cae8;
+    border-radius: 2px;
+    padding: 2rem 2.25rem;
 }
 
 .overview-section h2 {
     color: #111d4a;
-    margin-bottom: 1.5rem;
     font-size: 1.5rem;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 0.75rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 1.75rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid #c2cae8;
 }
 
-.section-content {
+/* Vista general: tarjetas grandes de total */
+#vista-general .section-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 120px;
+    padding: 1.5rem 1.25rem;
+    background: #f8f9fa;
+    border: 1px solid #c2cae8;
+    border-left: 3px solid #45f0df;
+    border-radius: 2px;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.stat-card:hover {
+    background: #fff;
+    border-left-color: #8380b6;
+    transform: translateY(-3px);
+}
+
+.stat-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #8789c0;
+}
+
+.stat-value {
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #111d4a;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Profesores más gustados */
+#profesores .section-content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+.prof-card {
+    display: flex;
     align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: #f8f9fa;
+    border: 1px solid #c2cae8;
+    border-top: 3px solid #c2cae8;
+    border-radius: 2px;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
 }
 
-/* Totales de la vista general */
-.overview-totales {
-    text-align: center;
-    margin: 0 0.5rem;
+.prof-card:hover {
+    background: #fff;
+    border-color: #8380b6;
+    transform: translateY(-3px);
+}
+
+/* Podios del top 3 con acentos de la paleta */
+#profesores .prof-card:nth-child(1) { border-top-color: #45f0df; }
+#profesores .prof-card:nth-child(2) { border-top-color: #8789c0; }
+#profesores .prof-card:nth-child(3) { border-top-color: #8380b6; }
+
+.prof-photo {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    object-fit: cover;
+    background: #c2cae8;
+    border: 1px solid #c2cae8;
+    border-radius: 2px;
+}
+
+.prof-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    min-width: 0;
+}
+
+.prof-name {
     font-size: 1rem;
-    font-weight: 800;
-    min-width: 80px;
+    font-weight: 600;
+    color: #111d4a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
 }
 
-.overview-totales:nth-child(odd) {
-    text-align: left;
-    font-weight: 500;
+.prof-likes {
+    padding: 0.2rem 0.55rem;
+    background: #45f0df;
+    border-radius: 2px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #111d4a;
+    white-space: nowrap;
 }
 
 /* Empty state messages */
 .section-content p {
-    color: #666;
+    color: #8789c0;
     font-size: 1rem;
     text-align: center;
     padding: 2rem;
 }
 
-/*Vista general*/
-#vista-general,
-#profesores {
-    grid-column: span 2;
-}
 /* Responsive */
+@media (max-width: 1100px) {
+    #vista-general .section-content {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    #profesores .section-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 @media (max-width: 768px) {
     .admin-layout {
-        grid-template-columns: 1fr;
-        padding: 1rem;
+        padding: 1.5rem 1rem;
+        gap: 1.25rem;
     }
-    
+
     .overview-section {
         padding: 1.5rem;
+    }
+
+    .overview-section h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    #vista-general .section-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #profesores .section-content {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-card {
+        min-height: 100px;
+        padding: 1.25rem 1rem;
+    }
+
+    .stat-value {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 420px) {
+    #vista-general .section-content {
+        grid-template-columns: 1fr;
     }
 }

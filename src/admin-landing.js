@@ -16,8 +16,10 @@ function mostrarVistaGeneral() {
         cargarEjecutar(`../../public/${lista}.json`, listaJSON => {
            document.querySelector("#vista-general div")
             .insertAdjacentHTML("beforeend",
-                `<div class="overview-totales">Total de ${lista}</div>
-                <div class="overview-totales">${listaJSON.length}</div>`
+                `<article class="stat-card">
+                    <span class="stat-label">Total de ${lista}</span>
+                    <strong class="stat-value">${listaJSON.length}</strong>
+                </article>`
             )
         })
     })
@@ -32,9 +34,13 @@ function mostrarProfesores() {
         likedProfesores.forEach(profesor => {
             document.querySelector("#profesores .section-content")
                 .insertAdjacentHTML("beforeend",
-                    `<div class="overview-totales"><img src="${profesor.foto}> ${profesor.nombre}</div>
-                    <div class="overview-totales">${profesor.likes} likes</div>
-                    `
+                    `<article class="prof-card">
+                        <img class="prof-photo" src="${profesor.foto}" alt="Foto de ${profesor.nombre}">
+                        <div class="prof-info">
+                            <span class="prof-name">${profesor.nombre}</span>
+                            <span class="prof-likes">${profesor.likes} likes</span>
+                        </div>
+                    </article>`
                 )
         })
     })
